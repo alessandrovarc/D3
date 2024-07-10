@@ -1,0 +1,70 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card {
+    width: 250px;
+    min-height: 300px;
+    color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 8px 18px -4px rgba(0,0,0,0.85);
+}
+
+
+img {
+    flex-grow: 2;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 5em;
+    border-top-right-radius: 5em;
+
+}
+.text {
+    background-color: rgb(255, 249, 223);
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 5em;
+    border-bottom-right-radius: 5em;
+}
+.text2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 249, 223);
+}
+h3, p {
+    margin: 0;
+}
+
+#subtitle {
+    font-size: 0.8em;
+    margin-bottom: 36px;
+    margin-left: 14px;
+    font-weight: 300;
+}
+.divText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+#peso {
+    margin-left: 34px;
+    padding-top: 22px;
+}
+h3 {
+    margin-left: 10px;
+}
+#button {
+    width: 135px;
+    border-radius: 35px;
+    border: none;
+    position: absolute;
+    top: 276px;
+    background-color: rgb(255, 216, 75);
+    color: brown;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
